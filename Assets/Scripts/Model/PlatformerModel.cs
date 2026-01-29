@@ -38,5 +38,10 @@ namespace Platformer.Model
         /// </summary>
         public float jumpDeceleration = 0.5f;
 
+        /// <summary>
+        /// The number of tokens collected by the player.
+        /// </summary>
+        public int tokens;
+
     }
 }
