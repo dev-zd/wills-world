@@ -39,6 +39,22 @@ Welcome to **Wills World**, a vibrant 2D platformer built with Unity! This proje
 2. Open `SampleScene.unity`.
 3. Press the **Play** button in the Unity Editor to start the adventure!
 
+## 🌐 Web Launcher
+
+The game includes a **Web-based Login & Launch System** powered by PHP and WampServer.
+
+### Features
+- **User Registration & Login**: Secure authentication with session management.
+- **Game Launcher**: Click "Launch Game" from your browser to start the Unity game.
+- **Premium UI**: Glassmorphism design with smooth animations.
+
+### Setup (WampServer Required)
+1. Copy the `WebLauncher` folder to `C:\wamp64\www\`.
+2. Run `http://localhost/WebLauncher/setup.php` to auto-create the database.
+3. Double-click `register_protocol.reg` to enable browser-to-game launching.
+4. Build your Unity game into `C:\wamp64\www\WebLauncher\Game\`.
+5. Access the launcher at `http://localhost/WebLauncher`.
+
 ## 📜 Credits
 
 - Built using the [Unity Platformer Microgame](https://assetstore.unity.com/packages/templates/platformer-microgame-151055) template.
